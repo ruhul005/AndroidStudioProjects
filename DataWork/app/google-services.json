@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "982322328508",
+    "firebase_url": "https://datawork-5d548.firebaseio.com",
+    "project_id": "datawork-5d548",
+    "storage_bucket": "datawork-5d548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982322328508:android:f767bd1cff6019bd",
+        "android_client_info": {
+          "package_name": "com.example.ruhulamin.datawork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982322328508-0h8g08rhuhnli87mactl414qhim8l3gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ruhulamin.datawork",
+            "certificate_hash": "3290116a4c57b09557ca769856979e4e0255928f"
+          }
+        },
+        {
+          "client_id": "982322328508-hfumqqjcdpu1e2b6vef1ptem2psgailh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVy8ubaJ8qG6d64YID6tzKKNdehsLkd6s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982322328508-hfumqqjcdpu1e2b6vef1ptem2psgailh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

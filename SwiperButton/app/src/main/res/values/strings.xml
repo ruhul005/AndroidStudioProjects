@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SwiperButton</string>
+    <string name="ruhulsText">I am Normal</string>
+    <string name="ruhulsButton">Tap</string>
+</resources>

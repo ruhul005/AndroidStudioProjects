@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meme Creator</string>
+    <string name="button_text">Push me Boss</string>
+    <string name="topText">TextView</string>
+    <string name="bottomText">Bottom Text</string>
+    <string name="bottom_text">Bottom Text</string>
+    <string name="top_text">Top Text</string>
+</resources>

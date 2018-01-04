@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ButtonEvent</string>
+    <string name="ruhulsBackButton">backButton</string>
+    <string name="ruhulsText">ruhulsText</string>
+    <string name="ruhulsMessage">Congrats</string>
+</resources>

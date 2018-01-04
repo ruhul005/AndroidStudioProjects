@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataWork</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="ok">OK</string>
+    <array name="bloodType">
+        <item>A+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>B+</item>
+    </array>
+</resources>
