@@ -9,16 +9,26 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity extends AppCompatActivity {
     EditText editTextName;
     Button buttonOk;
     Spinner spinnerId;
+
+    DatabaseReference databaseDonor;
+
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        databaseDonor= FirebaseDatabase.getInstance().getReference("donors");
+
 
         editTextName = (EditText) findViewById(R.id.editTextName);
         buttonOk = (Button) findViewById(R.id.buttonOk);
@@ -38,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         String blood = spinnerId.getSelectedItem().toString();
 
         if(!TextUtils.isEmpty(name)){
+            String id= databaseDonor.push().getKey();
+            Donor donor= new Donor(id,name,blood);
+            databaseDonor.child(id).setValue(donor);
+            Toast.makeText(this,"Entry Added",Toast.LENGTH_LONG).show();
 
         }
         else{
