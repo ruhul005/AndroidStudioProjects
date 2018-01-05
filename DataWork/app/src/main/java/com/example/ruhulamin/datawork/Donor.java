@@ -4,6 +4,8 @@ package com.example.ruhulamin.datawork;
  * Created by ruhulamin on 1/4/18.
  */
 
+//to write DB
+
 public class Donor {
     String donorId;
     String donorName;

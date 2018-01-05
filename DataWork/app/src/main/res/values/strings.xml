@@ -2,6 +2,7 @@
     <string name="app_name">DataWork</string>
     <string name="enter_name">Enter Name</string>
     <string name="ok">OK</string>
+    <string name="textviewName">TextView</string>
     <array name="bloodType">
         <item>A+</item>
         <item>AB+</item>

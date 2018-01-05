@@ -13,11 +13,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
+    //variables of input fields and button
     EditText editTextName;
     Button buttonOk;
     Spinner spinnerId;
 
-    DatabaseReference databaseDonor;
+    DatabaseReference databaseDonor; //Database Declaration
 
 
 
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         buttonOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                addBlood();
+                addBlood(); // method of info
 
             }
         });
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         String name = editTextName.getText().toString().trim();
         String blood = spinnerId.getSelectedItem().toString();
 
-        if(!TextUtils.isEmpty(name)){
+        if(!TextUtils.isEmpty(name)){  //Check weather empty or not if not it will push info to db
             String id= databaseDonor.push().getKey();
             Donor donor= new Donor(id,name,blood);
             databaseDonor.child(id).setValue(donor);
